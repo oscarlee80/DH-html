@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+body{
+    background-image: url(../images/fondo.png);
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.encabezado{
+  background: cornflowerblue;
+  text-align: center;
+}
+.enlace{
+  float: left;
+  width: 300px;
+}
+.imagenes{
+  float: right;
+  width: 630px;
+
+}
+.piedepagina{
+  clear: both;
+}

@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  font-size: 28px;
+  font-family: sans-serif;
+  max-width: 1200px;
+  border: solid 10px black;
+  overflow: hidden;
+  height: 1200px;
+}
+.encabezado{
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(195, 0, 164);
+  border: solid 10px rgb(89, 0, 99);
+}
+.container{
+}
+.cajas{
+  font-size: 1em;
+}
+.parrafos{
+  font-size: 0.46em;
+}
+.negrita{
+  font-size: 1.34em;
+}
+.cajaA{
+  float: left;
+  width: 20.83%;
+  background-color: rgb(166, 1, 1);
+  border: solid 10px rgb(91, 3, 3) ;
+}
+.cajaB{
+  float: left;
+  width: 66.67%;
+  background-color: rgb(238, 250, 6);
+  border: solid 10px rgb(116, 122, 0);
+  margin: 0 2.08% ;
+}
+.cajaC{
+  float: left;
+  width: 8.33%;
+  background-color: rgb(93, 78, 214);
+  border: solid 10px rgb(12, 0, 84);
+}

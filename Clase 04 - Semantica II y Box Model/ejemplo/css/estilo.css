@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+.container{
+  width: 600px;
+}
+h1{
+  background-color: cornflowerblue;
+}
+a{
+  background-color: yellow;
+}
+ul{
+  background-color: red;
+}
+h1:hover{
+  display: inline-block;
+}
+.principal{
+  overflow: hidden;
+}
+.parrafo1{
+  width: 300px;
+  background-color: green;
+  float: left;
+}
+.parrafo2{
+  width: 300px;
+  background-color: yellow;
+  float: left;
+}
+ul{
+  clear: both;
+}
